@@ -1,0 +1,34 @@
+:root {
+    --blue: #34497C;
+    --blue2: #4B69B1;
+    --yellow: #FBA702;
+    --white: #fff;
+    --black: #000;
+    --basic_size: 18px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body , html {
+    width: 100%;
+}
+
+.header {
+    background-color: var(--blue);
+}
+
+.contactform {
+    background-image: url(images/contactform.png);
+    background-repeat: no-repeat;
+    height: 878px;
+}
+
+.header .container {
+    display: flex;
+    justify-content: center;
+    
+}
